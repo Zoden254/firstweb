@@ -8,30 +8,16 @@ footer{
     margin-left: -8px;
     padding-bottom: 10px;
 }
-
 nav{
-    margin-left: -8px;
+    background-color: black;
+    width: 100%;.
     
-    display: block;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
 
 }
-ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    
-      
-}
-a{
+li{
+    list-style-type: none;
     text-decoration: none;
-    color: rgb(5, 1, 1);
-    background-color: black;
     color: white;
-    
-    padding-bottom: 10px;
-    padding-top: 10px;
+    margin-top: 0;    
 }
+
