@@ -5,6 +5,32 @@ footer{
     width: 100%;
     background-color: black;
     color: white;
-    margin-left: -9px;
-    padding-bottom: 20px;
+    margin-left: -8px;
+    padding-bottom: 10px;
+}
+
+nav{
+    margin-left: -8px;
+    
+    display: block;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+      
+}
+a{
+    text-decoration: none;
+    color: rgb(5, 1, 1);
+    background-color: black;
+    color: white;
+    padding-left: 125px;
+    padding-right: 125px;
 }
