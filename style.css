@@ -21,6 +21,7 @@ nav{
     padding-bottom: 0px;
     text-align: center;
     line-height: 0.2;
+    
 }
 .content{
     background-color: white;
@@ -32,6 +33,7 @@ nav{
     line-height: 0.05px;
     display: flex;
     transition: box-shadow 0.5s;
+    
 }
 img{
     height: 10%;
@@ -42,7 +44,8 @@ img{
     height: 70%;
     margin: 10px;
     border-radius: 10px;
-    transition: box-shadow 0.5s;
+    transition: box-shadow 0.5s, height 0.5s, width 0.5s;
+    
 }
 .price{
     color: rgba(0, 0, 0, 0.7);
@@ -53,10 +56,12 @@ img{
 .outfit{
     color: rgba(0, 0, 0);
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 11px;
+    padding-left: 0;
+    padding: 0;
 }
 .text{
-    line-height: 12px;    
+    line-height: 15px;    
 }
 
 .content:hover{
@@ -64,4 +69,17 @@ img{
 }
 img:hover{
     box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.2);
+    height: 12%;
+    width: 22%;
+}
+.description{
+    line-height: 20px;
+    padding-top: 0;
+    margin-top: 0;
+    width: 80%;
+    font-size: 15px;
+}
+.refubrish{
+    padding-left: 0;
+    margin-left: 0;
 }
