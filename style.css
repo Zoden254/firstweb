@@ -1,5 +1,8 @@
+body{
+    font-family: arial;
+}
 footer{
-    position: fixed;
+    position: absolute;
     bottom: 0;
     text-align: center;
     width: 100%;
@@ -10,13 +13,37 @@ footer{
 }
 nav{
     background-color: black;
+    position: absolute;
+    top: 0;
     width: 100%;
+    margin-left: -8px;
+    color: white;
+    padding-bottom: 0px;
+    text-align: center;
+    line-height: 0.2;
+}
+.content{
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: rgb(0, 2, 2);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 30%;
+    margin-top: 80px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    line-height: 0.2;
     
+}
+img{
+    height: 300px;
+    width: 300px;
+    margin-top: 0px;
+    padding: 0%;
 
 }
-li{
-    list-style-type: none;
-    text-decoration: none;
-    color: white;
-    margin-top: 0;    
+.price{
+    color: rgb(250, 245, 245, 0.7);
+    font-size: smaller;
 }
